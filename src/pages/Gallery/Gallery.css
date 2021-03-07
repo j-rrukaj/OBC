@@ -1,0 +1,48 @@
+.backgroundImage{
+    height: 100vh;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+    padding-bottom: 3rem;
+  }
+
+.heading-gallery {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+
+  
+
+ 
+
+
+  .image {
+      height: 55.5rem;
+      width: 5.5rem;
+  }
+
+  @media screen and (max-width: 760px) {
+  
+    .image {
+        height: 18rem;
+        width: 18rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+  .image {
+      height: 20rem;
+      width: 20rem;
+  }
+
+}

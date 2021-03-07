@@ -1,0 +1,86 @@
+.logo {
+  font-size: 2rem;
+  position: relative;
+  top: 8px;
+}
+
+
+.nav-title {
+  flex-grow: 1;
+  position: relative;
+  display: flex;
+  font-family: 'Audiowide', cursive;
+  font-size: 1.5rem;
+  color: black;
+}
+
+
+
+.nav-links:hover {
+  border-bottom: 4px solid #fff;
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 72px;
+    right: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: black;
+    right: 0;
+    transition: all 0.5s ease;
+    z-index: 1;
+    padding: 0;
+    margin-top: 0;
+    width: 100%; 
+   
+  }
+
+  .nav-links {
+    text-align: center;
+    width: 90%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    background-color: #fff;
+    color: #242424;
+    border-radius: 10px;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.5rem;
+    padding-top: 4px;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #fff;
+    font-size: 1.6rem;
+  }
+
+ 
+}
+
+   

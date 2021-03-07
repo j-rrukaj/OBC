@@ -1,0 +1,51 @@
+#Reviews {
+  padding-bottom: 7rem;
+}
+
+.reviewsBackground {
+    height: 40vh;
+    background-color: #F9F9F9;
+    
+}
+
+.heading-reviews {
+    padding-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+  }
+
+/* Feature Section */
+.feature-title {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4%;
+  color: black;
+}
+
+.reviews-icons {
+  color: black;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.reviews-icons:hover {
+  color: red;
+}
+
+@media screen and (max-width: 960px) {
+    .reviewsBackground {
+        height: 100vh;
+        background-color: cornflowerblue;
+    }
+ 
+
+}

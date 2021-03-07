@@ -1,0 +1,66 @@
+.serviceBackgroundImage{
+    height: 100vh;
+    background-color: #F9F9F9;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  h5 {
+    padding-top: 5rem;
+    text-align: center;
+  }
+
+  ul  {
+    text-align: center;
+    display: contents;
+  }
+
+ 
+ .sectionTwo-services {
+  text-align: center;
+ }
+
+ .heading-services {
+  padding-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Montserrat', sans-serif;
+  }
+
+  
+
+  .info-text {
+   padding-top: 3rem;
+   padding-left: 18rem;
+   padding-right: 18rem;  
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.2rem;
+   text-align: center;
+  }
+
+  .subheading-services {
+    text-align: center;
+  }
+
+
+
+@media screen and (max-width: 960px) {
+
+  .hero-text {   
+      font-size: 1.2rem;
+  }
+
+  #section2 {
+      height: 120vh;
+  }
+
+  .info-text {
+      padding-left: 3rem;
+      padding-right: 3rem;
+  }
+
+
+}

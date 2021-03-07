@@ -1,0 +1,43 @@
+
+.contactBackgroundImage {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/images/contact-us.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+  }
+
+.info-heading {
+    font-weight: bold;
+    color: white;
+}
+
+.contact-info {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.heading {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.icons {
+    font-size: 1.5rem;
+    position: relative;
+    color: white;
+}
+
+
+
+
