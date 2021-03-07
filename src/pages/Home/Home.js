@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import "./Home.css"
 import { makeStyles } from '@material-ui/core/styles';
-import { AppBar, IconButton, Toolbar, Collapse } from '@material-ui/core';
+import {IconButton, Collapse } from '@material-ui/core';
 
 
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';

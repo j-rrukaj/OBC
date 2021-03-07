@@ -17,12 +17,12 @@
 
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid ;
   transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-  color: #fff;
+  color: black;
 }
 
 .menu-icon {
@@ -42,27 +42,23 @@
   }
 
   .nav-menu.active {
-    background: black;
+    background: lightgray;
     right: 0;
     transition: all 0.5s ease;
     z-index: 1;
     padding: 0;
     margin-top: 0;
-    width: 100%; 
+    width: 50%; 
    
   }
 
   .nav-links {
     text-align: center;
-    width: 90%;
+    width: 50%;
     display: table;
   }
 
-  .nav-links:hover {
-    background-color: #fff;
-    color: #242424;
-    border-radius: 10px;
-  }
+
 
   .menu-icon {
     display: block;
@@ -76,7 +72,7 @@
   }
 
   .fa-times {
-    color: #fff;
+    color: black;
     font-size: 1.6rem;
   }
 
